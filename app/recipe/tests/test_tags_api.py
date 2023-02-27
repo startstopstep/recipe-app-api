@@ -32,7 +32,7 @@ class PrivateTagsApiTests(TestCase):
 
     def setUp(self) -> None:
         self.user = create_user()
-        self.client = APIClient
+        self.client = APIClient()
         self.client.force_authenticate(self.user)
 
     def test_retrieve_tags(self):
