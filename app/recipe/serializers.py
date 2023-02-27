@@ -54,6 +54,7 @@ class RecipeSerializer(serializers.ModelSerializer):
         instance.save()
         return instance
 
+
 class RecipeDetailSerializer(RecipeSerializer):
     """ Serializer for recipe detail view. """
 
