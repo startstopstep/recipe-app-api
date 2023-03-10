@@ -32,7 +32,8 @@ from rest_framework.response import Response
             OpenApiParameter(
                 'ingredients',
                 OpenApiTypes.STR,
-                description='Comma separated list of ingredients IDs to filter',
+                description='Comma separated list of ingredients IDs to '
+                            'filter',
             )
         ]
     )
